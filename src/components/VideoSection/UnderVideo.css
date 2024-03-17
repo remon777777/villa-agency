@@ -1,0 +1,60 @@
+.fact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.fact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  background-color: #ffeee9;
+  border-radius: 0.5rem;
+  padding: 0 1.5rem;
+  margin: 0 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-coral {
+  color: #f35525;
+  font-size: 40px;
+}
+
+.card {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.fact-text {
+  text-align: center;
+  text-align: left;
+  font-size: 16px;
+  color: #1e1e1e;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.title-one,
+.title-two {
+  text-transform: uppercase;
+  padding: 5px;
+
+}
+
+.icon-circle {
+  font-size: 40px;
+  margin: 5px;
+  color: #e82121;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #f35525;
+  border-radius: 50%;
+  content: '';
+  right: -25px;
+  top: -25px;
+}

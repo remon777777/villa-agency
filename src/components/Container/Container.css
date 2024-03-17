@@ -1,0 +1,132 @@
+.container1{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    padding-bottom: 100px;  
+    
+}
+.container1 .img1{
+  object-fit: cover;
+}
+.container1 .img1 .icon img{
+  overflow: hidden;  
+  max-width: 60px;
+  padding-left: 55px;
+  padding: 0px;
+}
+
+.container1 .img1 a{
+  display: inline-block;
+    width: 110px;
+    height: 110px;
+    line-height: 110px;
+    background-color: #f35525;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: -55px;
+}
+.infoo{
+    padding: 20px;
+    width: 25%;
+}
+.infoo h6 {
+    color: #f35525;
+    font-size: 0.8rem;
+}
+.infoo h2 {
+    color: #222;
+    font-size: 2rem;
+    line-height: 1.2;
+}
+.infoo .linkn-button {
+    background-color: transparent;
+    border: 2px solid #f35525;
+    padding: 10px 20px;
+    color: #f35525;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.3s ease;
+}
+.infoo .linkn-button:hover {
+    background-color: #f35525;
+    color: #000;
+}
+.infoo p {
+    color: #666;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+.featuress li {
+  display:flex;
+  margin-bottom: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+  font-size: 15px;
+  color:rgb(255, 85, 11);
+  font-weight: 400;
+}
+.featuress ul{
+  padding:15px;
+}
+  
+  .featuress li img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .featuress li .text-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .featuress li .text-container h4 {
+    color: rgb(255, 85, 11);
+    font-size: 1.3rem;
+    margin: 0;
+    line-height: 1.2;
+  }
+  
+  .featuress span {
+    color: #111;
+    font-size: 0.9rem;
+    display: block;
+    margin: 5px;
+    margin-bottom: 0;
+  }
+  .bottun-container{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    margin: 45px 0px;
+    padding: 45px 0px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  @media (max-width: 768px) {
+    .container1 {
+      display:flex;
+     flex-direction:column;
+     padding: 20px;
+    }
+    .img1 img {
+      width: 80%; 
+      height: auto;
+    }
+    .infoo h2, h6, p {
+      font-size: 20px;
+      font-weight: 40; 
+    }
+    .featuress ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    /* Add more responsive styles */
+  }

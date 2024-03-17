@@ -1,0 +1,86 @@
+.contact-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: start;
+    padding:0 100px;
+    margin:0 40px;
+}
+.contactItems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contactSection {
+    padding: 50px;
+    background-color: fff;
+  }
+  
+  .sectionHeading {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .sectionHeading h6 {
+    color: #6c63ff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .sectionHeading h2 {
+    color: #333;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .contactSectionPara {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contactItem {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+  }
+  
+  .contactItem img {
+    flex-shrink: 0;
+    margin-right: 20px;
+  }
+  
+  .contactItem h6 {
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .contactItem span {
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    margin-top: 5px;
+  }
+  .map{
+    margin:80px;
+    padding:80px;
+    width:100%px;
+  }
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+    .hero-mid img {
+      width: 100%;
+    }
+  }

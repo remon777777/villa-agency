@@ -1,0 +1,26 @@
+/* const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home />,
+      children: [
+        {
+          path: "/penthouse",
+          element: <PentHouse />,
+        },
+        {
+          path: "/appartment",
+          element: <Appartment />,
+        },
+        {
+          path: "/villahouse",
+          element: <VillaHouse />,
+        },
+      ],
+    },
+    {path: "/contact",
+    element: <Contact />},
+    {path: "/propert",
+    element: <Propert />},
+    {path: "/propertydetails",
+    element:<PropertyDetails />},
+  ]); */

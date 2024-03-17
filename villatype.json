@@ -1,0 +1,28 @@
+[
+    {   "id":"1",
+        "space": "320",
+        "floor": "34",
+        "rooms": "6",
+        "imgurl": "/property-03.jpg",
+        "ctitle": "Extra Info About Penthouse",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse.\n\nSwag fanny pack lyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen."
+      },
+      {
+        "id":"2",
+        "space": "111",
+        "floor": "2",
+        "rooms": "5",
+        "imgurl": "/property-05.jpg",
+        "ctitle": "Extra Info About Property",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse.When you need free CSS templates, you can simply type TemplateMo in any search engine website. In addition, you can type TemplateMo Portfolio, TemplateMo One Page Layouts, etc"
+      },
+      {
+        "id":"3",
+        "space": "250",
+        "floor": "26",
+        "rooms": "4",
+        "imgurl": "/property-06.jpg",
+        "ctitle": "Extra Info About Villa",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse.\n\nSwag fanny pack lyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen."
+      }
+]

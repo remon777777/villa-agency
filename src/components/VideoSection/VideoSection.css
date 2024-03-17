@@ -1,0 +1,39 @@
+.house-image {
+  width: 99%; /* Equivalent to w-full */
+  height: 66%; /* Equivalent to h-3/4, adjust as necessary */
+  position: absolute; /* Equivalent to absolute */
+
+}
+.background-image{
+  width: 50%; /* Equivalent to w-full */
+  height: 20%; /* Equivalent to h-3/4, adjust as necessary */
+  position: center;
+}
+
+.inner-section {
+  height: 83.333333%; /* Equivalent to h-5/6 */
+  text-align: center; /* Equivalent to text-center */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: relative; /* Equivalent to relative */
+  padding:100px 0px; /* Equivalent to p-3 */
+  /* Add gap for md and lg breakpoints as necessary */
+}
+
+.tagline {
+  color: #ee626b;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 20px;
+  line-height: 56px;
+}

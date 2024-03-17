@@ -1,0 +1,125 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+   
+  }
+.navbar h1 {
+    margin: 0;
+    font-size: 24px; 
+  }
+.navbar ul {
+    list-style-type: none; 
+    padding: 0; 
+    display: flex; 
+    gap: 20px; 
+  }
+  
+.navbar a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+    transition: all 0.3s ease;
+  }
+  
+.navbar a:hover {
+    background-color: #ff6c40;
+    border-radius: 20px;
+  }
+  
+.navbar a.active {
+    background-color: #ff6c40;
+    border-radius: 20px;
+  }
+
+  .nav-links {
+    display: flex;
+  }
+   
+  @media (max-width: 600px) {
+    .navbar{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position:relative;
+    }
+    .nav-links {
+      display: none;
+      flex-direction: column;
+    }
+  
+    .nav-links.show {
+      display: flex;
+    }
+  }
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 20px;
+  margin: 5px;
+}
+.icon-house{
+  font-size: 40px;
+  color: #ff6c40;
+  border-radius: 10px;
+}
+
+.icon-envelope {
+  color:#e82121;
+}
+
+.icon-map {
+  color: #e82121;
+}
+
+.social-links {
+  display: flex;  
+  margin-top: 10px;
+}
+
+.icon-facebook {
+  color: #3b5998;
+}
+
+.icon-twitter {
+  color: #1da1f2;
+}
+
+.icon-linkedin {
+  color: #0077b5;
+}
+
+.icon-instagram {
+  color: #e1306c;
+}
+.buttonnav {
+  color: #ff00fb;
+  border: 10px solid #1e1e1e;
+}
+@media (max-width: 768px) {
+  .icon {
+    font-size: 15px;
+    margin: 2px;
+  }
+  .contact-info span{
+    font-size: 15px;
+  }
+  
+}
