@@ -4,7 +4,7 @@ const Container1 = () => {
   return (
     <div className='container1'>
       <div className="img1">
-        <img src='src/assets/featured.jpg' />
+        <img src='public/featured.jpg' />
       </div>
 
       <div className='infoo'>
@@ -21,10 +21,10 @@ const Container1 = () => {
       </div>
       <div className='featuress'>
         <ul>
-          <li> <img src='src/assets/info-icon-01.png' /><div className='text-container'><h4>250 m2</h4> <span>Total Flat Space</span></div></li>
-          <li> <img src='src/assets/info-icon-02.png' /><div className='text-container'><h4>Contract</h4> <span>Contract Ready</span></div></li>
-          <li> <img src='src/assets/info-icon-03.png' /><div className='text-container'><h4>Payment</h4> <span>Payment Process</span></div></li>
-          <li> <img src='src/assets/info-icon-04.png' /><div className='text-container'><h4>Safety</h4> <span>Under Control</span></div></li>
+          <li> <img src='public/info-icon-01.png' /><div className='text-container'><h4>250 m2</h4> <span>Total Flat Space</span></div></li>
+          <li> <img src='public/info-icon-02.png' /><div className='text-container'><h4>Contract</h4> <span>Contract Ready</span></div></li>
+          <li> <img src='public/info-icon-03.png' /><div className='text-container'><h4>Payment</h4> <span>Payment Process</span></div></li>
+          <li> <img src='public/info-icon-04.png' /><div className='text-container'><h4>Safety</h4> <span>Under Control</span></div></li>
 
         </ul>
       </div>
